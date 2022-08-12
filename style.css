@@ -13,7 +13,7 @@ body {
 main {
     border: 2px solid grey;
     width: 400px;
-    height: 230vh;
+    height: 130vh;
     margin: 40px auto;
     background-color: coral;
 }
