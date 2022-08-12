@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: wheat;
+
+}
+
+main {
+    border: 2px solid grey;
+    width: 400px;
+    height: 230vh;
+    margin: 40px auto;
+    background-color: coral;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(25, 23, 23);
+}
+
+#title {
+    font-family: 'Tiro Gurmukhi', sans-serif;
+    font-size: 40px;
+}
+
+#description {
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+#survey-form {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form-group {
+    margin: 15px;
+    gap: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input, select {
+    margin-top: 5px;
+    padding-left: 10px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+}
+
+[type="radio"]+label {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+}
+
+[type="checkbox"]+label {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.remark {
+    margin-bottom: 10px;
+}
+
+#remark {
+    height: 120px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+#submit {
+    height: 35px;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(15, 12, 12);
+    outline: none;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(49, 47, 47);
+}
