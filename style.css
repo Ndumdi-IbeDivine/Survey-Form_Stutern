@@ -11,9 +11,10 @@ body {
 }
 
 main {
+    position: relative;
     border: 2px solid grey;
     width: 400px;
-    height: 130vh;
+    height: 100vh;
     margin: 40px auto;
     background-color: coral;
 }
@@ -36,6 +37,7 @@ header {
 }
 
 #survey-form {
+    position: absolute;
     width: 100%;
     margin-top: 20px;
     padding-left: 15px;
