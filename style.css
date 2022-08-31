@@ -14,7 +14,7 @@ main {
     position: relative;
     border: 2px solid grey;
     width: 400px;
-    height: 100vh;
+    height: 160vh;
     margin: 40px auto;
     background-color: coral;
 }
